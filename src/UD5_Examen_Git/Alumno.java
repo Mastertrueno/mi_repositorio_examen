@@ -10,5 +10,15 @@ package UD5_Examen_Git;
  * @author User
  */
 public class Alumno {
+    protected String grupo;
+    protected double notaMedia;
+
+    public String getGrupo() {
+        return grupo;
+    }
+
+    public double getNotaMedia() {
+        return notaMedia;
+    }
     
 }
